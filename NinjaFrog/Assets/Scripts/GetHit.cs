@@ -25,7 +25,7 @@ public class GetHit : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             hearts.MinusHearts(1);
-            Debug.Log("Przyjebal mi chuj");
+            Debug.Log("Dostalem w łeb");
             health --;
            // Instantiate(_explosionParticlePrefab, transform.position, Quaternion.identity);
         }
